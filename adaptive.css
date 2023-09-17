@@ -1,4 +1,5 @@
-* {
+@media only screen and (max-width: 600px) {
+    * {
     margin: 0;
     padding: 0;
 
@@ -15,9 +16,9 @@ body {
 
 }
 .slider {
-    margin-top: 10vh;
-    width: 70vh;
-    height: 50vh;
+    margin-top: 20vh;
+    width: 40vh;
+    height: 25vh;
     overflow: hidden;
     border-radius: 2%;
     /* border: 1vh solid white; */
@@ -81,4 +82,6 @@ display: none;
 
 .slide_footer {
     display: flex;
+    
+
 }
