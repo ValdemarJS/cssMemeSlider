@@ -3,3 +3,10 @@
     padding: 0;
 
 }
+.slider {
+    width: 80vh;
+    height: 40vh;
+    overflow: hidden;
+    border-radius: 20%;
+
+}
