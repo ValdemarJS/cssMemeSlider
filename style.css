@@ -43,6 +43,25 @@ body {
     transition: all .4s ease;
     color: white;
 }
+.bar:checked {
+    color: white;
+}
+
+.bar_one {
+    border: 3px solid rgb(12, 132, 238);
+
+    height: 2vh;
+    width: 2vh;
+    margin: 0.5vh;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: rgb(30, 30, 30);
+    opacity: .5;
+    transition: all .4s ease;
+    color: white;
+    /* visibility: hidden; */
+
+}
 
 .bar:hover {
     background-color: rgb(12, 132, 238);
@@ -61,6 +80,20 @@ body {
 .slide img {
     width: 100%;
     height: 100%;
+}
+.slider__text {
+    margin-top: 10vh;
+    width: 40vh;
+    height: 5vh;
+    overflow: hidden;
+    
+    /* border: 1vh solid white; */
+
+}
+.mem_text {
+    color: white;
+    width: 25%;
+    transition: all .6s ease;
 }
 
 #r1:checked ~ .s1 {
@@ -82,3 +115,10 @@ display: none;
 .slide_footer {
     display: flex;
 }
+#r1:checked~.slider__text .slides .mem_text {
+    transform: translateX(0);
+  }
+  
+#r2:checked~.slider__text .slides .mem_text {
+    transform: translateX(-25%);
+  }
